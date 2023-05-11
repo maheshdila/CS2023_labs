@@ -64,6 +64,9 @@ struct HashTable{
         if(!empty){
             cout<<"user_password:"<<password[hash]<<endl;
         }
+        else{
+            cout<<"not exists"<<endl;
+        }
 
 
 
